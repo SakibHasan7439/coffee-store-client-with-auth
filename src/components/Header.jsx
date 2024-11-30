@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -6,6 +6,8 @@ const Header = () => {
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/addCoffee">Add Coffee</NavLink></li>
+        <li><NavLink to="/logIn">Sign In</NavLink></li>
+        <li><NavLink to="/users">Users</NavLink></li>
         
     </>
 
